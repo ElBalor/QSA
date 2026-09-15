@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+checkpoints/
+
+# LaTeX build artifacts (main.pdf is kept; rebuild with pdflatex main.tex)
+build/
+*.aux
+*.log
+*.out
+*.toc
+
+# Release/upload kit (regenerable; lives on Zenodo + GitHub Releases)
+dist_upload/
+
+# OS
+.DS_Store
+Thumbs.db

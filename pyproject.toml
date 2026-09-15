@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qsa-attention"
+version = "0.2.0"
+authors = [
+  { name="Heylel Yaka" },
+]
+description = "Quantum Self-Attention: complex projective attention with constructive and destructive interference."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0.0",
+]
+
+[project.urls]
+"Paper" = "https://doi.org/10.5281/zenodo.22250418"
+"Homepage" = "https://github.com/ElBalor/QSA"
+"Bug Tracker" = "https://github.com/ElBalor/QSA/issues"
+
+[tool.setuptools]
+packages = ["qsa"]
